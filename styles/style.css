@@ -5101,6 +5101,10 @@
     font-family: 'EB Garamond', serif;
 }
 
+p {
+    font-size: 19px;
+}
+
 @media (min-width: 576px) {
 
 }
@@ -5219,10 +5223,6 @@
 }
 
 
-* {
-    color: white;
-}
-
 body {
     margin: 0;
 }
@@ -5233,6 +5233,9 @@ body {
 
 .font-22 {
     font-size: 22px;
+}
+.font-24 {
+    font-size: 24px;
 }
 
 header {
@@ -5303,7 +5306,7 @@ ul.nav {
 
 .hero-p {
     color: #fff;
-    /*font-size: 18px;*/
+    font-size: 18px;
     /*position: absolute;*/
     /*right: 15%;*/
     /*top: 30%;*/
