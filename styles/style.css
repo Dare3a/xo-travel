@@ -5253,9 +5253,12 @@ ul.nav {
 
 .nav > li {
     cursor: pointer;
-    padding: 1em;
-    font-size: 20px;
+    padding: 0.8em;
+    /*font-size: 20px;*/
     position: relative;
+}
+.nav-item {
+    font-size: 17px;
 }
 
 .nav a {
@@ -5334,9 +5337,9 @@ ul.nav {
     text-decoration: none;
 }
 
-main {
-    background-color: #383e42;
-}
+/*main {*/
+/*    background-color: #383e42;*/
+/*}*/
 
 .card-proizvodi {
     position: relative;
@@ -5445,7 +5448,7 @@ main {
     padding: 0 .5em;
     line-height: 1.5em;
     color: #b29d5f;
-    background-color: #383e42;
+    background-color: white;
 }
 
 /*====================
@@ -5889,6 +5892,7 @@ label {
     box-sizing: border-box;
     width: 100%;
     padding: 0.25rem 1rem;
+    font-size: 18px;
 }
 
 .dropdown-item:hover {
