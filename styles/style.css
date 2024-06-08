@@ -5370,11 +5370,16 @@ ul.nav {
 }
 
 .border-radius-15 {
-    border-radius: 15px;
+    border-radius: 50%;
+    border: solid 1px goldenrod;
 }
-
+.card-link {
+    color: #0a58ca;
+    text-decoration: none;
+    font-size: 25px;
+}
 .card-link:hover {
-    color: #F9F871;
+    color: #0d6efd;
 }
 
 .img-radius {
