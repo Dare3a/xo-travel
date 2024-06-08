@@ -6246,3 +6246,11 @@ label {
 ul {
     padding-left: 20px;
 }
+.renta-lista {
+    padding-left: 25px;
+    font-size: 20px;
+    list-style: none;
+}
+.color-green {
+    color: springgreen;
+}
