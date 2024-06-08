@@ -5120,13 +5120,13 @@ p {
     }
 
     .bottom-menu-card {
-        background-color: #37646D;
+        background-color: #7EAF71;
         border: 1px solid white;
         padding: 5px;
     }
 
     .bottom-menu-card:hover {
-        background-color: #328D87;
+        background-color: springgreen;
     }
 
     .menu ul li:hover ul {
@@ -5239,9 +5239,10 @@ body {
 }
 
 header {
-    background-color: #e4e6e7;
+    background-color: #F4EDCC;
     color: #000;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.50);
+    /*box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.50);*/
+    /*border-bottom: solid 1px goldenrod;*/
     width: 100%;
     position: sticky;
     top: 0;
@@ -5284,10 +5285,9 @@ ul.nav {
     top: 40%;
     transform: translateY(-40%);
     background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(56, 62, 66, 0.7); /* Green background with 0.5 opacity */
+    background: rgba(97, 150, 166, 0.7); /* Green background with 0.5 opacity */
     color: #f1f1f1;
-    border-top: 1px solid #b29d5f;
-    border-bottom: 1px solid #b29d5f;
+    outline: 1px solid white;
     width: 100%;
     height: auto;
 }
@@ -5318,14 +5318,14 @@ ul.nav {
 }
 
 .logo-bg {
-    background-color: #bbc0c4;
+    background-color: #6196A6;
 }
 
 .oblak {
     font-size: 16px;
     color: white;
     padding: 2px 8px;
-    background-color: #37646D;
+    background-color: #7EAF71;
     border-radius: 50px;
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
     text-decoration: none;
@@ -5334,7 +5334,7 @@ ul.nav {
 .oblak:hover {
     color: white;
     padding: 2px 8px;
-    background-color: #328D87;
+    background-color: springgreen;
     border-radius: 50px;
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.50);
     text-decoration: none;
@@ -5467,7 +5467,7 @@ ul.nav {
 /* Main Footer */
 footer .main-footer {
     padding: 20px 0;
-    background: #4D545E;
+    background: #5F5D9C;
 }
 
 footer ul {
@@ -5477,7 +5477,7 @@ footer ul {
 
 /* Copy Right Footer */
 .footer-copyright {
-    background-color: #393f46;
+    background-color: #3b3960;
     color: white;
     padding: 5px 0;
 }
@@ -5583,11 +5583,11 @@ footer.light .footer-copyright {
 
 .widget li a, .widget a {
     text-decoration: none;
-    color: #CAF7FF;
+    color: springgreen;
 }
 
 .widget li a:hover, .widget a:hover {
-    color: #CAF7FF;
+    color: springgreen;
     text-decoration: underline;
 }
 
@@ -5651,7 +5651,7 @@ ul.social-footer2 li {
 }
 
 ul.social-footer2 li a:hover {
-    background-color: #a8dadc;
+    background-color: springgreen;
     border-radius: 0.25rem;
 }
 
@@ -5663,12 +5663,12 @@ ul.social-footer2 li a {
 }
 
 footer .btn {
-    background-color: #a8dadc;
+    background-color: springgreen;
     color: #0e0e0e;
 }
 
 footer .btn:hover, footer .btn:focus, footer .btn.active {
-    background: #a8dadc;
+    background: springgreen;
     color: #fff;
     /**-webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -6253,4 +6253,7 @@ ul {
 }
 .color-green {
     color: springgreen;
+}
+.text-muted {
+    color: goldenrod;
 }
