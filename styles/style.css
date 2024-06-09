@@ -5285,7 +5285,7 @@ ul.nav {
     top: 40%;
     transform: translateY(-40%);
     background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(97, 150, 166, 0.7); /* Green background with 0.5 opacity */
+    background: rgba(228, 212, 129, 0.8); /* Green background with 0.5 opacity */
     color: #f1f1f1;
     outline: 1px solid white;
     width: 100%;
@@ -5371,7 +5371,7 @@ ul.nav {
 
 .border-radius-15 {
     border-radius: 50%;
-    border: solid 1px goldenrod;
+    border: solid 2px #e4d481;
 }
 .card-link {
     color: #0a58ca;
@@ -5391,14 +5391,14 @@ ul.nav {
 }
 
 .usluge .card-usluge {
-    background-color: #F4EDCC;
-    border-bottom: 2px solid #6196A6;
+    background-color: #e4d481;
+    border-bottom: 2px solid #e4d481;
     box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px, rgba(0, 0, 0, 0.22) 0 4px 4px;
 }
 
-.card-usluge:hover {
-    background-color: #e4d481;
-}
+/*.card-usluge:hover {*/
+/*    background-color: #e4d481;*/
+/*}*/
 
 .usluge .card-title a {
     color: #37646D;
