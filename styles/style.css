@@ -6257,3 +6257,36 @@ ul {
 .text-muted {
     color: goldenrod;
 }
+
+.img-experience {
+    position: relative;
+    border-top: solid 3px #6196A6;
+    border-bottom: solid 3px #6196A6;
+}
+
+.img-experience img {
+    width: 100%;
+    height: auto;
+}
+
+.pet-slika p {
+    color: white !important;
+}
+
+.div-5 {
+    position: relative;
+}
+
+.slike-5 {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(97, 150, 166, 0.6); /* Green background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+}
+
+.slike-5 p {
+    margin: 0;
+}
