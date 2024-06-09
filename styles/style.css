@@ -5391,13 +5391,13 @@ ul.nav {
 }
 
 .usluge .card-usluge {
-    background-color: #bbc0c4;
-    border-bottom: 2px solid #37646D;
+    background-color: #F4EDCC;
+    border-bottom: 2px solid #6196A6;
     box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px, rgba(0, 0, 0, 0.22) 0 4px 4px;
 }
 
 .card-usluge:hover {
-    background-color: #e4e6e7;
+    background-color: #e4d481;
 }
 
 .usluge .card-title a {
