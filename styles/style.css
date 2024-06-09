@@ -5583,11 +5583,11 @@ footer.light .footer-copyright {
 
 .widget li a, .widget a {
     text-decoration: none;
-    color: springgreen;
+    color: #e4d481;
 }
 
 .widget li a:hover, .widget a:hover {
-    color: springgreen;
+    color: #e4d481;
     text-decoration: underline;
 }
 
@@ -5651,7 +5651,7 @@ ul.social-footer2 li {
 }
 
 ul.social-footer2 li a:hover {
-    background-color: springgreen;
+    background-color: #e4d481;
     border-radius: 0.25rem;
 }
 
@@ -5663,12 +5663,12 @@ ul.social-footer2 li a {
 }
 
 footer .btn {
-    background-color: springgreen;
+    background-color: #e4d481;
     color: #0e0e0e;
 }
 
 footer .btn:hover, footer .btn:focus, footer .btn.active {
-    background: springgreen;
+    background: #e4d481;
     color: #fff;
     /**-webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -5911,7 +5911,7 @@ label {
 
 .podfooter-link {
     text-decoration: none;
-    color: #CAF7FF;
+    color: #e4d481;
 }
 
 .podfooter-link:hover {
