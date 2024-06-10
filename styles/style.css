@@ -6302,3 +6302,32 @@ ul {
 .white-filter {
     filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(85deg) brightness(103%) contrast(104%);
 }
+
+.header-div {
+    /*position: relative;*/
+    background-image: url("../images/header-mercedes-kombi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header-pozadina {
+    /*position: absolute;*/
+    /*top: 40%;*/
+    /*transform: translateY(-40%);*/
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    color: white;
+    font-size: 30px;
+    /*width: 100%;*/
+    /*height: auto;*/
+}
+@media (max-width: 768px) {
+    .header-div {
+        /*position: relative;*/
+        background-image: url("../images/header-mercedes-kombi_mob.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
