@@ -57,9 +57,10 @@ if (hamburger) {
 }
 
 // Otvaranje i zatvaranje podmenija u navigaciji za mobilni
-const padajuciMeni = document.querySelectorAll('#kombiPrevozSrbija, #kombiPrevozSlovenija, #kombiPrevozHrvatska,' +
+const padajuciMeni = document.querySelectorAll('#kombiPrevozSrbija, #kombiPrevozGrcka, #kombiPrevozSlovenija,' +
+    ' #kombiPrevozHrvatska,' +
     ' #kombiPrevozCrnaGora');
-const padajuciMeniLista = document.querySelectorAll('#destinacijeSrbija, #destinacijeSlovenija,' +
+const padajuciMeniLista = document.querySelectorAll('#destinacijeSrbija, #destinacijeGrcka, #destinacijeSlovenija,' +
     ' #destinacijeHrvatska, #destinacijeCrnaGora');
 if (padajuciMeni) {
     padajuciMeni.forEach(item => {
