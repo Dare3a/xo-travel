@@ -5374,12 +5374,12 @@ ul.nav {
     border: solid 2px #e4d481;
 }
 .card-link {
-    color: #0a58ca;
+    color: #6196A6;
     text-decoration: none;
     font-size: 25px;
 }
 .card-link:hover {
-    color: #0d6efd;
+    color: #5F5D9C;
 }
 
 .img-radius {
@@ -5404,6 +5404,10 @@ ul.nav {
     color: #6196A6;
     text-decoration: none !important;
     font-weight: bold;
+}
+
+.usluge .card-title a:hover {
+    color: #5F5D9C;
 }
 
 .card-usluge {
