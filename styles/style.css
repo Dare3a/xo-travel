@@ -5321,6 +5321,10 @@ ul.nav {
     background-color: #6196A6;
 }
 
+.logo-bg-white {
+    background-color: white;
+}
+
 .oblak {
     font-size: 16px;
     color: white;
@@ -6331,3 +6335,14 @@ ul {
     }
 }
 
+.paralax {
+    background-image: url("../images/blue-world.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.paralax-pozadina {
+    background-color: rgba(97, 150, 166, 0.7);
+}
