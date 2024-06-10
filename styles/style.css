@@ -5181,7 +5181,7 @@ p {
     }
 
     .bottom-menu-card {
-        background-color: #37646D;
+        background-color: #A4CE95;
         border: 1px solid white;
         padding: 5px;
     }
@@ -5285,7 +5285,7 @@ ul.nav {
     top: 40%;
     transform: translateY(-40%);
     background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(228, 212, 129, 0.8); /* Green background with 0.5 opacity */
+    background: rgba(97, 150, 166, 0.8); /* Green background with 0.5 opacity */
     color: #f1f1f1;
     outline: 1px solid white;
     width: 100%;
@@ -5396,12 +5396,12 @@ ul.nav {
     box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px, rgba(0, 0, 0, 0.22) 0 4px 4px;
 }
 
-/*.card-usluge:hover {*/
-/*    background-color: #e4d481;*/
-/*}*/
+.card-usluge:hover {
+    background-color: #d7be42;
+}
 
 .usluge .card-title a {
-    color: #37646D;
+    color: #6196A6;
     text-decoration: none !important;
     font-weight: bold;
 }
@@ -5958,7 +5958,7 @@ label {
     padding-bottom: 5px;
 }
 .aktivno > a {
-    color: #37646D !important;
+    color: #6196A6 !important;
 }
 
 .aktivno-lista > a {
