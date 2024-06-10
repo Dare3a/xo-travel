@@ -6288,7 +6288,7 @@ ul {
     background: rgba(97, 150, 166, 0.6); /* Green background with 0.5 opacity */
     color: #f1f1f1;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .slike-5 p {
