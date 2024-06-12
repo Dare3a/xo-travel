@@ -5231,6 +5231,10 @@ body {
     font-size: 18px;
 }
 
+.font-20 {
+    font-size: 20px;
+}
+
 .font-22 {
     font-size: 22px;
 }
@@ -6345,4 +6349,11 @@ ul {
 
 .paralax-pozadina {
     background-color: rgba(97, 150, 166, 0.7);
+}
+
+.number {
+    color: white;
+    background-color: #5F5D9C;
+    width: 20px;
+    border-radius: 50%;
 }
