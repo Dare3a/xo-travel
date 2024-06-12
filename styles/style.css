@@ -5242,6 +5242,10 @@ body {
     font-size: 24px;
 }
 
+.w-600 {
+    font-weight: 600;
+}
+
 header {
     background-color: rgba(244, 237, 204, 1);
     color: #000;
