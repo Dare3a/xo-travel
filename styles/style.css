@@ -6327,6 +6327,17 @@ ul {
     background-position: center center;
 }
 
+.header-pozadina-country {
+    /*position: absolute;*/
+    /*top: 40%;*/
+    /*transform: translateY(-40%);*/
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    color: white;
+    font-size: 30px;
+    /*width: 100%;*/
+    /*height: auto;*/
+}
+
 .header-pozadina {
     position: absolute;
     top: 40%;
@@ -6337,6 +6348,8 @@ ul {
     width: 100%;
     height: auto;
 }
+
+
 @media (max-width: 768px) {
     .header-div {
         /*position: relative;*/
