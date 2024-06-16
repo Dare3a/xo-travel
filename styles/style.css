@@ -6472,3 +6472,12 @@ tbody, td, th, thead, tr {
     padding-right: 5px !important;
 }
 
+.rec {
+    border: 1px solid #6196A6;
+    -webkit-box-shadow: 5px 5px 4px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rec:hover {
+    background-color: #f1f1f1;
+}
