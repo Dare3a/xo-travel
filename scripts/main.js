@@ -1,15 +1,5 @@
 "use strict";
 
-// Toast za poslatu poruku u kontakt formi
-// namesteno je na click zbog testa na lokalu u produkciji promeniti na submit
-// $(document).ready(function () {
-//     $("#form-contact, #form-contact-modal").submit(function () {
-//         $(".toast").toast({delay: 1200});
-//         $(".toast").toast("show");
-//         resetForm();
-//     });
-// });
-//
 
 // Toast za poslatu poruku u kontakt formi
 const toastMsg = document.querySelector('.toast')
@@ -84,14 +74,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     button.addEventListener('click', function () {
         window.scrollTo({top: 0, left: 0, behavior: "smooth"});
     });
-
-    // window.addEventListener('scroll', function () {
-    //     if (window.scrollY < 200) {
-    //         button.style.opacity = "0";
-    //     } else {
-    //         button.style.opacity = "1";
-    //     }
-    // });
 
 });
 
