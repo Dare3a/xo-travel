@@ -6481,3 +6481,14 @@ tbody, td, th, thead, tr {
 .rec:hover {
     background-color: #f1f1f1;
 }
+
+.pozadina {
+    background-image: url(../images/grad-pancevo-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.transbox {
+    background: rgba(142, 216, 248, 0.1);
+}
