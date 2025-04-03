@@ -6492,3 +6492,11 @@ tbody, td, th, thead, tr {
 .transbox {
     background: rgba(164, 206, 149, 0.9);
 }
+
+.text-link-bckg {
+    color: #3D1A5D;
+}
+
+.text-link-bckg:hover {
+    color: #5b278b;
+}
