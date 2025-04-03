@@ -5786,7 +5786,7 @@ footer .btn:hover, footer .btn:focus, footer .btn.active {
     background-size: cover;
 }
 
-.transbox {
+.transbox-kontakt {
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(97, 150, 166, 0.7); /* Green background with 0.5 opacity */
     /*opacity: 0.8;*/
