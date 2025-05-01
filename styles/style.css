@@ -6361,7 +6361,7 @@ ul {
 }
 
 .paralax {
-    background-image: url("../images/blue-world.jpg");
+    background-image: url("../images/blue-world.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
