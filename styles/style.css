@@ -5170,6 +5170,10 @@ p {
         width: 100%;
     }
 
+    .hero-img {
+        aspect-ratio: 1 / 1 !important; /* Forsira kvadrat za 500x500 sliku */
+    }
+
     .slide-artikli {
         width: 100%;
     }
@@ -5286,6 +5290,13 @@ ul.nav {
 
 .hero-div {
     position: relative;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1920 / 920; /* Desktop razmera */
+    object-fit: cover;
 }
 
 .hero-pozadina {
